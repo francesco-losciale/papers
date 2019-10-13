@@ -1,1 +1,15 @@
 https://www.maintainable.fm/episodes/sandro-mancuso-technical-debt-is-anything-preventing-you-from-developing-fast
+
+
+Notes watching Clean Code Video - Chicago vs London
+
+
+
+Outside-in TDD:
+
++ The unit tests drive the architecture
++ Rest API behaviour/acceptance tests validate the architecture
++ Production code is enough to validate the behaviour, no exceeding logic
+
+- Rest API behaviour/acceptance tests might not cover some negative scenario that needs to be checked at unit test level (for example there must be a Rest Assured test for checking the invalid password for a login api).
+
