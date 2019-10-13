@@ -1,0 +1,27 @@
+How to define/decompose services (Microservices Patterns, p. 51)
+
+Option 1 - following DDD
+
+- Gather requirements (event storming):
+	1. Stick as many as possible Events using past tense (ie. Order Created, Car collected, etc)
+	2. Place dependent Event on the right next to the preceeding one
+	3. For each event, define the commands have triggered it (ie. Place order)
+	4. Across all the events, find Aggregates ie. part of the system which receive commands around a specific concern and produce those events
+
+- Map Domain/Subdomain objects to services that needs to be highly cohesive 
+	1. if result is god service or referenced by many other services, reconsider your domain model map or break down the god service
+	2. if two subdomains are too intertwined, merge them in one only service to avoid communication overhead 
+
+
+
+Option 2 - Decompose by business capabilities (something business does to generate value)
+
+1. Reading the requirements or a list of business capabilities, identify System Operations (actions)
+2. Identify preconditions and postconditions for each operation (respectively "given" and "then") so that you know what triggers that operation and what that operation triggers.
+3. Identify nouns for services that can accomplish those operations
+4. Define service APIs and collaborations between them
+	1. if result is god service or referenced by many other services, reconsider your domain model map or break down the god service
+	2. if two subdomains are too intertwined, merge them in one only service to avoid communication overhead 
+
+
+
