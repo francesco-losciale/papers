@@ -19,7 +19,7 @@ Option 2 - Decompose by business capabilities (something business does to genera
 1. Reading the requirements or a list of business capabilities, identify System Operations (actions)
 2. Identify preconditions and postconditions for each operation (respectively "given" and "then") so that you know what triggers that operation and what that operation triggers.
 3. Identify nouns for services that can accomplish those operations
-4. Define service APIs and collaborations between them
+4. Define service APIs and for each of them their collaborators
 	1. if result is god service or referenced by many other services, reconsider your domain model map or break down the god service
 	2. if two subdomains are too intertwined, merge them in one only service to avoid communication overhead 
 
