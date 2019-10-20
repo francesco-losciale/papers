@@ -11,5 +11,6 @@ Outside-in TDD:
 + Rest API behaviour/acceptance tests validate the architecture
 + Production code is enough to validate the behaviour, no exceeding logic
 
-- Rest API behaviour/acceptance tests might not cover some negative scenario that needs to be checked at unit test level (for example there must be a Rest Assured test for checking the invalid password for a login api).
+- Rest API behaviour/acceptance/system/e2e tests might not cover negative scenarios.
+These tests need to be checked at unit test level (for example there must be a Rest Assured test for checking the invalid password for a login api). Or at UI level (using selenium/jest or similar).
 
