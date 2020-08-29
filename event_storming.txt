@@ -1,0 +1,63 @@
+Quotes
+
+ Alberto Brandolini: “It is not the domain expert's knowledge that goes into production, it is the developer's assumption of that knowledge that goes into production.”
+
+ Eric Evans: “When we are developing a software, our focus shouldn’t be on technology. It should be primarily on business or whatever activity we are trying to assist with software, the domain.”
+ “Specifically, we approach that by trying to develop models of that domain and make our software conform to that.”
+ “To communicate effectively, the code must be based on the same language used to write the requirements—the same language that the developers speak with each other and with domain experts.”
+ 
+ George E. P. Box: “Essentially, all models are wrong, but some are useful.”
+
+
+
+How to
+
+- Decide the bounded context of your Event Storm
+- A large context can be useful for wider organisation discoveries
+- Keep your bounded context small and specific if you know the area you want to improve
+- The hardest part: Getting the right people in a room at the same time
+- Introduce everyone to the session by running through the key as this forms the different stages of the workshop
+
+
+
+
+Keys (types of sticky notes):
+
+Event 
+A short and clear description of something which happens in the process
+something that happens or time passing (eg "end of month") 
+past tense verb
+
+Pain, Risks and more info needed
+Friction and frustrations associated to events
+
+Systems, software or community/department
+Add all the systems people user, including non tech systems such as phone calls, pen and paper
+
+People, name, role, personas (eg. hr)
+Add all the people who are part of this journey
+
+Use emotions to highlight areas
++ emotion (money or time saved)
+- emotion (waste)
+
+Optional 
+Opportunities
+A quick brainstorm of ideas to solve problem areas
+
+
+AFTER THE SESSION
+Understand the process and overlay additional context
+Understand every sticky, adding more context from your conversations
+Understand the process, having additional sessions where needed
+Tidy the map, removing duplicates, creating sections (if relevant) and taking digital copies
+Share the event storming map and encourage further inputs
+
+
+
+
+Use cases
+
+Software change - Fully Understanding the As-Is
+Radical change - Using the As-Is as a basis to design the future
+Organisational change - Find out what’s holding your organisation back
